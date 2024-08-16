@@ -7,9 +7,6 @@ from pySmartDL import SmartDL
 
 from .. import all, everyone, owner, sudo_users
 from .database.access_db import db
-from .display_progress import progress_for_url
-from .ffmpeg import encode, extract_subs
-from .uploads import upload_worker
 
 output = InlineKeyboardMarkup([
     [InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/maheshsirop"),
