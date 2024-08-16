@@ -3,7 +3,7 @@ import os
 
 from pyrogram.errors.exceptions.bad_request_400 import MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from pySmartDL import SmartDL
+#from pySmartDL import SmartDL
 
 from .. import all, everyone, owner, sudo_users
 from .database.access_db import db
